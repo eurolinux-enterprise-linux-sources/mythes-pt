@@ -2,7 +2,7 @@ Name: mythes-pt
 Summary: Portuguese thesaurus
 %define upstreamid 20060817
 Version: 0.%{upstreamid}
-Release: 10%{?dist}
+Release: 11%{?dist}
 Source: http://openthesaurus.caixamagica.pt/download/thes_pt_PT_v2.zip
 Group: Applications/Text
 URL: http://openthesaurus.caixamagica.pt/
@@ -50,6 +50,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/mythes/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20060817-11
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20060817-10
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
